@@ -1,0 +1,281 @@
+
+
+
+body{ 
+    background:url(../Fotos/patron.jpg);
+}
+header{
+    width: 100%;
+    background: white;
+}
+#btn-menu{
+    display: none;
+}
+.menuimg{width: 30px;
+    height: 30px;
+
+
+}
+header label{
+    display: none;
+    width: 30px;
+    height: 30px;
+    padding: 10px;
+    border-right: black;
+}
+header label:hover{
+    cursor: pointer;
+    background: rgba(0, 0, 0, 0.3);
+}
+.Menu ul{
+    margin: 0;
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    
+}
+.Menu li a{
+    display: block;
+    padding: 15px 20px;
+    color: #000;
+    text-decoration: none;
+}
+.Menu li:hover{
+    background: rgba(0, 0, 0, 0.3);
+
+}
+#btn-menu:checked ~ .Menu{
+    margin: 0;
+}
+
+.slider{ 
+    width: 100%;
+    margin: auto;
+    overflow: hidden;
+}
+.slider ul{
+    display: flex;
+    padding: 0;
+    width: 400%;
+    
+    animation: cambio 10s infinite alternate;
+   
+}
+.slider li{
+    width: 100%;
+    list-style: none;
+}
+.slider img{
+    
+    width: 100%;
+}
+.zapamenu{
+    width: 50px;
+    
+}
+.menujordan5{
+    margin-top: -14px;
+
+}
+.Jordaninicio{
+    text-align: center;
+}
+.jordanfoto{
+    width: 50%;
+}
+.logoinicio{
+    float: right;
+    margin-top: -10%;
+    width: 10%;
+}
+
+@keyframes cambio{
+    0%{
+        margin-left: 0;
+    }
+    20%{
+        margin-left: 0;
+    }
+    25%{
+        margin-left: -100%;
+    }
+    45%{
+        margin-left: -100%;
+    }
+    50%{
+        margin-left: -200%;
+    }
+    70%{
+        margin-left: -200%;
+    }
+    75%{
+        margin-left: -300%;
+    }
+    100%{
+        margin-left: -300%;
+    }
+}
+.centrar{
+    text-align: center;
+}
+.logoinicio2{
+    position: absolute;
+    right: 5%;
+    top: 720%;
+    width: 10%;
+}
+.Gif{width: 25%;
+    float: left;
+    position: relative;
+    margin-right: 1%;
+}
+
+.Gif:hover{ 
+    
+    filter: grayscale(1);
+}
+
+.Jordanmate{
+    padding-right: 4%;
+    padding-left: 4%;
+}
+
+.TravisScott{
+    transform-origin: 0% 100%;
+    animation: Travis 2s linear infinite ;
+}
+.suela{
+    float: left;
+    width: 40%;
+    
+}
+.suela:hover{
+    filter: sepia(100%);
+}
+.zapatravis{
+    float: ;
+}
+.zapatravis :hover{
+   transform: skew(40deg);
+}
+.Jordanturbogreen{
+    width: 30%;
+    opacity: 0 ;
+    
+    
+}
+.Jordanturbogreen:hover{
+    opacity: 1;
+
+}
+.Jordanobsidian :hover{
+    opacity: 0  ;
+}
+.Jordandior{
+    float: left;
+    width: 30%;
+}
+.Jordandior:hover {
+    transform: rotate(180deg);
+}
+.Jordanobsidian{
+    position: absolute;
+    opacity: 1;
+    width: 30%;
+    z-index: -1;
+}
+.JordanJbalvin{
+    width: 30%;
+}
+.JordanJbalvin:hover{
+   transform: scale(1,2);
+}
+.Jordan2gris{
+    width: 50%;
+    float: left;
+}
+.Jordan2azul{
+    width: 50%;
+}
+.Jordan2negra{
+    width: 70%;
+}
+.jordan3cement{
+    width: 50%;
+    float: left;
+}
+.jordan3kata{
+    width: 50%;
+    float: left;
+}
+.Jordan4cement{
+    margin-left: 5%;
+    width: 40%;
+}
+.Jordan4PSG{
+    width: 40%;
+}
+.Jordan4Kaws{
+    width: 40%;
+    margin-bottom:2.5%;
+    margin-left: 5%;
+    margin-right: 5%;
+    
+}
+.Jordan4boceto{
+    width: 50%;
+}
+.Jordan4gris{
+    width: 30%;
+    
+}
+.Jordan5{
+    width: 30%;
+}
+
+@keyframes Travis {
+    0%{
+        transform: rotate3d(0,0,1, 0deg);
+    }
+    50%{
+        transform: rotate3d(0,0,1, -20deg);
+    }
+    100%{
+        transform: rotate3d(0,0,1, 0deg);
+    }
+  }
+
+@media (max-width:640px){
+    header label{
+        display: block;
+    }
+    .Menu{
+        position: absolute;
+        background-color: white;
+        width: 70%;
+        margin-left: -70%;
+        transition: all 0.5s;
+    }
+    .Menu ul{
+        flex-direction: column;
+    }
+.Texto{
+    font-size: 1em;
+}
+
+}
+@media (max-width:1024px) and (min-width:640px){
+
+}
+footer{
+    background: red;
+}
+.enlaces{
+    
+    color: #000;
+    text-decoration: none;
+}
+.Terminos{
+    text-align: left;
+}

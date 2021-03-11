@@ -1,0 +1,71 @@
+body{
+    font-family: 'Slabo 27px', serif;
+    font-size:1.5em;
+    margin: 2%;
+    color: #FFFFFF;
+    margin: 0;
+    padding: 0;
+}
+.menutitulojordan{ 
+    
+    
+}
+.Texto1{font-size: 1.5em;
+    width: 40%;
+    padding-left: 5%;
+    margin-right: 2%;
+    float: left;
+}
+.Texto2{
+    font-size: 1.5em;
+    width: 40%;
+    float: left;
+    
+}
+
+.iconos{
+    font-size: 1.5em;
+    margin-top: -10px;
+    padding-left: 30px;
+}
+
+.Texto{
+    margin-left: 5%;
+    margin-right: 5%;
+    font-size: 1.5em;
+}
+.Titulo{
+     position: absolute;
+    top: 30%; right: 30%;
+}
+.Titulo h1{
+    font-size: 100%;
+}
+#TituloJordan{
+    position: absolute;
+    top: 170%; right: 30%;
+}
+.Jordan1{
+    
+font-size: 300%;
+}
+#jordan2{
+    
+    
+}
+.titulos{ text-align: center;
+    z-index: 5; 
+    color: #ffffff; 
+    font-family:Verdana;
+}
+
+
+.TextoJordan2{
+    font-size: 4em;
+    float: left;
+    
+}
+
+
+
+
